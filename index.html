@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="he">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/styles.css">
+
+    <title>הפורטפוליו של אחלאם</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="main-menu">
+            <label for="menu-toggle" id="hamburger">&#8801;</label>
+            <input type="checkbox" id="menu-toggle" />
+            <div class="navbar-links">
+                <nav>
+                    <div class="logo">
+                        <img src="images/me.jpg" alt="me" class="nav-image left-align">
+                    </div>
+                    <div>
+                        <a href="#">ראשי</a>
+                        <a href="#aboutMe">אודות</a>
+                        <a href="#projects">גלריה</a>
+                        <a href="#contact">צור קשר</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+    <section id="about" class="about">
+        <h2>ברוכים הבאים לפורטפוליו שלי</h2>
+        <h1>אני אחלאם שולי, מפתחת אתרים עם תשוקה לעיצוב וחוויית משתמש, ביחד נגיע לפסגות.</h1>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="image-grid">
+            <img src="images/img-HTML.png" alt="HTML">
+            <img src="images/img-CSS.png" alt="CSS">
+            <img src="images/img-JS.png" alt="JS">
+        </div>
+    </section>
+
+    <section id="aboutMe" class="aboutMe">
+
+        <h2>קצת עליי</h2>
+        <p>שמי אחלאם שולי, בוגרת תואר ראשון בהנדסה ביוכימית מהטכניון. כיום אני עובדת כטכנאית איכות, תפקיד המאפשר לי לשלב
+            את הידע
+            ההנדסי שלי עם הקפדה על סטנדרטים גבוהים ודיוק בתהליכי עבודה. בנוסף, אני עוסקת בפיתוח אתרים כמתכנתת
+            Full-Stack, תחום
+            שמאפשר לי להביא לידי ביטוי את היצירתיות והיכולות הטכנולוגיות שלי. אני שואפת להמשיך להתפתח מקצועית ולתרום
+            לשיפור וייעול
+            תהליכים בתחומים שבהם אני עוסקת.</p>
+        <br>
+        <div id="cv" class="cv">
+            <a href="images/CV-AhlamSholy.pdf" class="cv-button" download>להורדת קורות חיים </a>
+        </div>
+    </section>
+    <br><br>
+
+    <section id="projects" class="projects">
+        <h2>עבודות נבחרות</h2>
+        <div class="project-grid">
+            <!-- Poject 1 -->
+            <div class="project-item">
+                <img src="images/project1.png" alt="project1">
+                <a href="projects/project1/indexP1.html" class="project-page">לעמוד הפרוייקט</a>
+            </div>
+
+            <!-- Poject 2 -->
+            <div class="project-item">
+                <img src="images/project2.png" alt="project2">
+                <a href="projects/project2/indexP2.html" class="project-page">לעמוד הפרוייקט</a>
+            </div>
+
+            <!-- Poject 3 -->
+            <div class="project-item">
+                <img src="images/project3.png" alt="project3">
+                <a href="projects/project3/indexP3.html" class="project-page">לעמוד הפרוייקט</a>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-item">
+                <img src="images/project4.png" alt="project4">
+                <a href="projects/project4/indexP4.html" class="project-page">לעמוד הפרוייקט</a>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-item">
+                <img src="images/project5.png" alt="project5">
+                <a href="projects/project5/indexP5.html" class="project-page">לעמוד הפרוייקט</a>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="project-item">
+                <img src="images/project6.png" alt="project6">
+                <a href="projects/project6/indexP6.html" class="project-page">לעמוד הפרוייקט</a>
+            </div>
+
+            <!-- Project 7 -->
+            <div class="project-item">
+                <img src="images/project7.png" alt="project7">
+                <a href="projects/project7/indexP7.html" class="project-page">לעמוד הפרוייקט</a>
+            </div>
+
+            <!-- Project 8 -->
+            <div class="project-item">
+                <img src="images/project8.png" alt="project8">
+                <a href="projects/project8/indexP8.html" class="project-page">לעמוד הפרוייקט</a>
+            </div>
+        </div>
+        <br><br><br>
+    </section>
+
+    <section id="contact" class="contact">
+        <br>
+        <div class="contact-container">
+            <div class="contact-form">
+                <h2>יצירת קשר</h2>
+                <form>
+                    <label for="name">שם</label>
+                    <input type="text" id="name" placeholder="שם" required>
+
+                    <label for="email">אימייל</label>
+                    <input type="email" id="email" placeholder="אימייל" required>
+
+                    <label for="telephone">טלפון</label>
+                    <input type="tel" id="email" placeholder="טלפון" required>
+
+                    <label for="textArea">הודעה</label>
+                    <textarea name="" id="textArea" placeholder="הודעה" required></textarea>
+
+                    <button type="submit">שליחה</button>
+                </form>
+            </div>
+            <div class="contact-image">
+                <img src="images/mail.png" alt="תמונת קשר">
+            </div>
+        </div>
+    </section>
+
+    <section id="contactme" class="contactme">
+        <div class="contactme-grid">
+            <div class="contactme-item">
+                <h3>0504205588</h3>
+                <img src="images/Icon simple-whatsapp.svg" alt="whatsaap">
+            </div>
+            <div class="contactme-item">
+                <h3>Ahlam Sholy</h3>
+                <img src="images/Icon awesome-linkedin-in.svg" alt="linkedin">
+            </div>
+            <div class="contactme-item">
+                <h3>ahlam.sholy@gmail.com</h3>
+                <img src="images/Icon simple-email.svg" alt="email">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p> כל הזכויות שמורות לאחלאם שולי © 2025</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(180deg, #281EFF 0%, #2DFF8C 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-family: 'Satisfy', 'regular';
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.forme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    direction: rtl;
+}
+
+.forme input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.forme button {
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.forme button:hover {
+    background-color: #47eabe;
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    .forme {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    .forme input,
+    .forme button {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    .forme input,
+    .forme button {
+        padding: 8px;
+        font-size: 0.8rem;
+    }
+
+}

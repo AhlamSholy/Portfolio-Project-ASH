@@ -12,7 +12,7 @@ projects folder- תיקייה שמכילה 8 תיקיות של כל פרויקט
 
 4. הוראות שימוש:
 1- ניתן להשתמש בקובץ , ניתן לפתוח את index.html ZIP שמכיל את כל הקבצים 
-2- או בקישור של הפרויקט דרך גטהאב: https://ahlamsholy.github.io/Portfolio-Project/
+2- או בקישור של הפרויקט דרך גטהאב: https://ahlamsholy.github.io/Portfolio-Project-ASH/
 
 5. כל התוכן והעיצוב נבנה על ידי אחלאם שולי במסגרת קורס full-stack
 
